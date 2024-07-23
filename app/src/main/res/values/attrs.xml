@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CornerDrawer">
+        <attr name="header_view" format="reference" />
+        <attr name="content_view" format="reference" />
+        <attr name="header_color" format="reference" />
+        <attr name="content_color" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CornerSheetBehavior_Layout">
+        <attr name="behavior_horizontal_peekHeight" format="dimension" />
+        <attr name="behavior_expanded_width" format="dimension" />
+        <attr name="behavior_horizontalExpandingRatio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomSheetBehavior_Layout">
+
+        <attr format="dimension" name="behavior_peekHeight">
+            <!-- Peek at the 16:9 ratio keyline of its parent -->
+            <enum name="auto" value="-1"/>
+        </attr>
+
+        <attr format="boolean" name="behavior_hideable"/>
+
+        <attr format="boolean" name="behavior_skipCollapsed"/>
+
+        <attr format="boolean" name="behavior_fitToContents"/>
+
+        <attr name="behavior_draggable"/>
+
+        <attr format="reference|float" name="behavior_halfExpandedRatio"/>
+
+        <attr format="reference|dimension" name="behavior_expandedOffset"/>
+
+        <attr format="dimension" name="behavior_significantVelocityThreshold"/>
+
+        <attr name="shapeAppearance"/>
+
+        <attr name="shapeAppearanceOverlay"/>
+
+        <attr name="backgroundTint"/>
+
+        <attr name="behavior_saveFlags">
+            <!-- This flag will preserve the peekHeight on configuration change. -->
+            <flag name="peekHeight" value="0x1"/>
+            <!-- This flag will preserve the fitToContents boolean value on configuration change. -->
+            <flag name="fitToContents" value="0x2"/>
+            <!-- This flag will preserve the hideable boolean value on configuration change. -->
+            <flag name="hideable" value="0x4"/>
+            <!-- This flag will preserve the skipCollapsed boolean value on configuration change. -->
+            <flag name="skipCollapsed" value="0x8"/>
+            <!-- This flag will preserve the all the aforementioned values on configuration change. -->
+            <flag name="all" value="-1"/>
+            <!-- This flag will not preserve the aforementioned values on configuration change. The only
+                 value preserved will be the positional state, e.g. collapsed, hidden, expanded, etc.
+                 This is the default behavior. -->
+            <flag name="none" value="0"/>
+        </attr>
+
+        <attr format="boolean" name="gestureInsetBottomIgnored"/>
+        <attr name="paddingBottomSystemWindowInsets"/>
+        <attr name="paddingLeftSystemWindowInsets"/>
+        <attr name="paddingRightSystemWindowInsets"/>
+        <attr name="paddingTopSystemWindowInsets"/>
+        <attr name="marginLeftSystemWindowInsets"/>
+        <attr name="marginRightSystemWindowInsets"/>
+        <attr name="marginTopSystemWindowInsets"/>
+        <attr format="boolean" name="shouldRemoveExpandedCorners"/>
+        <attr name="android:elevation"/>
+        <attr name="android:maxWidth"/>
+        <attr name="android:maxHeight"/>
+
+    </declare-styleable>
+
+</resources>

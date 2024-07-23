@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theming related -->
+    <dimen name="default_dialog_corner_radius">@dimen/_18sdp</dimen>
+    <dimen name="dialogCornerRadius">@dimen/default_dialog_corner_radius</dimen>
+
+</resources>

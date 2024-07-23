@@ -1,3 +1,12 @@
 <resources>
+
     <string name="app_name">Flux Launcher</string>
+
+    // custom sheet behavior
+    <string name="corner_sheet_behavior">com.flux.launcher.widget.bottomsheet.core.behavior.CornerSheetBehavior</string>
+
+    //
+    <string name="apps">Apps</string>
+    <string name="widgets">Widgets</string>
+
 </resources>
