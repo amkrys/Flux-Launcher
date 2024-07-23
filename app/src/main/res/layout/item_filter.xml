@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="position"
+            type="Integer" />
+
+        <variable
+            name="item"
+            type="com.flux.launcher.domain.model.FilterUiModel" />
+
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:drawablePadding="@dimen/_5sdp"
+            android:drawableStart="@{item.icon}"
+            android:id="@+id/tvPetTraitsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_3sdp"
+            android:gravity="center"
+            android:button="@null"
+            android:checked="@{item.selected}"
+            android:enabled="false"
+            android:clickable="false"
+            android:textColor="@drawable/selector_text_color"
+            android:background="@drawable/selector_chip"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_12sdp"
+            android:textSize="@dimen/_10ssp"
+            android:text="@{item.label}"
+            tools:text="Abc"/>
+
+    </RelativeLayout>
+
+</layout>

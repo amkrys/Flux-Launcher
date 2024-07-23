@@ -8,5 +8,6 @@
     //
     <string name="apps">Apps</string>
     <string name="widgets">Widgets</string>
+    <string name="search_hint">Search</string>
 
 </resources>

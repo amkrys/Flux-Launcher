@@ -2,10 +2,10 @@ package com.flux.launcher.di
 
 import android.app.Application
 import androidx.room.Room
-import com.flux.launcher.util.constant.Constants
 import com.flux.launcher.data.local.core.AppDatabase
 import com.flux.launcher.data.local.repository.AppRepositoryImpl
 import com.flux.launcher.domain.repository.AppRepository
+import com.flux.launcher.util.constant.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
